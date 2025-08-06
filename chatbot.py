@@ -16,7 +16,7 @@ def get_bot_response(user_input):
     elif "bye" in user_input:
         return "Goodbye! Have a great day."
     else:
-        return "Sorry, I didn't understand that."
+        return "Sorry, We can do"
 
 # Send message to chat window
 def send_message():
