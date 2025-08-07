@@ -28,7 +28,7 @@ def send_message():
 
 # GUI setup
 root = tk.Tk()
-root.title("Python GUI Chatbot")
+root.title("GUI Chatbot")
 
 chat_window = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=60, height=20, font=("Arial", 12))
 chat_window.pack(padx=10, pady=10)
